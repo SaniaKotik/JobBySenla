@@ -1,0 +1,142 @@
+#include <iostream>
+#include <string>
+использование пространства имен std;
+int main () 
+{ 
+int a, b, c;
+  cin >> a >> b;
+  с = а + б;
+  cout << c;
+  вернуть 0;
+}
+
+
+
+def fibonacci (n):
+    если n в (1, 2):
+        возврат 1
+    возврат фибоначчи (n - 1) + фибоначчи (n - 2)
+ 
+ 
+Печать (Фибоначчи (10))
+
+
+
+
+
+#include <stdio.h>
+#include <float.h>
+#include <math.h>
+ 
+int сегмент_intersection (
+        двойной х1, двойной у1, двойной х2, двойной у2, / * 1-й сегмент * /
+        двойной х3, двойной у3, двойной х4, двойной у4, / * 2-й сегмент * /
+        double * xi, double * yi) / * точка пересечения * /
+{
+    двойной dx1, dx2, dy1, dy2, D, т;
+ 
+    дх1 = х2 - х1;
+    dy1 = y2 - y1;
+    дх2 = х4 - х3;
+    dy2 = y4 - y3;
+    
+    D = dx2 * dy1 - dx1 * dy2;
+    
+    t = dx1 * (y3 - y1) - dy1 * (x3 - x1);
+    if (D * t <0 || fabs (t)> fabs (D))
+        вернуть 0; / * Нет пересечения * /
+ 
+    t = dx2 * (y3 - y1) - dy2 * (x3 - x1);
+    if (D * t <0 || fabs (t)> fabs (D))
+        вернуть 0; / * Нет пересечения * /
+    
+    if (fabs (D) <DBL_MIN)
+        возврат -1; / * Неизвестно * /
+ 
+    t / = D;
+    * xi = t * dx1 + x1;
+    * yi = t * dy1 + y1;
+ 
+    возврат 1; / * Одно пересечение * /
+}
+ 
+int main (void)
+{
+    двойной xi = 0.0, yi = 0.0;
+    двойной х1 = 1,0, у1 = 1,0;
+    двойной х2 = -1,0, у2 = -1,0;
+    двойной х3 = -1,0, у3 = 0,0;
+    двойной х4 = 0,0, у4 = -2,0;
+ 
+    switch (пересечение сегмента (x1, y1, x2, y2, x3, y3, x4, y4, & xi, & yi))
+    {
+        Дело 1:
+            printf («Точка пересечения: (% g,% g) \ n», xi, yi);
+            сломать;
+        случай 0:
+            printf («Сегменты не имеют пересечения \ n»);
+            сломать;
+        по умолчанию:
+            Е ( "Unknown \ п");
+    }
+ 
+    вернуть 0;
+}
+
+
+
+
+
+
+#include "stdafx.h"
+#include <conio.h>
+#include <iostream>
+#include <stdio.h>
+использование пространства имен std;
+int function GCD (int a, int b); // Обьявление функции
+int main ()
+{
+    функция GCD int a, int b; // Вызов функции
+{
+    
+    функция GCD int a, int b // Заголовок функции
+{
+    while (a * b! = 0)
+    {Если (а <Ь); 
+    A = A% B;
+    еще 
+    B = B% а;
+Геч ();
+вернуть a + b;
+}
+
+
+
+
+#include <iostream>
+#include <string>
+использование пространства имен std;
+
+int main ()
+{
+if (strcmp (str, str_reversed) == 0)
+    cout << "Является ли палиндром.";
+еще
+    cout << «Не палиндром.»;
+}
+
+
+
+#include <iostream>
+#include <cstdio>
+использование пространства имен std;
+ 
+int main () {
+  const char * str = "dfg546sv435";
+  for (; * str; ++ str) { 
+    if (isalpha (* str)) { 
+      cout << * str; 
+    }
+  }
+}
+
